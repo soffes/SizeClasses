@@ -12,6 +12,7 @@
 		212892C61D37076A00E92D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212892C41D37076A00E92D19 /* Main.storyboard */; };
 		212892C81D37076A00E92D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212892C71D37076A00E92D19 /* Assets.xcassets */; };
 		212892CB1D37076A00E92D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212892C91D37076A00E92D19 /* LaunchScreen.storyboard */; };
+		212892D31D370A7C00E92D19 /* UIUserInterfaceSizeClass+description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212892D21D370A7C00E92D19 /* UIUserInterfaceSizeClass+description.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		212892C71D37076A00E92D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212892CA1D37076A00E92D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212892CC1D37076A00E92D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212892D21D370A7C00E92D19 /* UIUserInterfaceSizeClass+description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIUserInterfaceSizeClass+description.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				212892C01D37076A00E92D19 /* AppDelegate.swift */,
 				212892C21D37076A00E92D19 /* ViewController.swift */,
+				212892D21D370A7C00E92D19 /* UIUserInterfaceSizeClass+description.swift */,
 				212892C41D37076A00E92D19 /* Main.storyboard */,
 				212892C71D37076A00E92D19 /* Assets.xcassets */,
 				212892C91D37076A00E92D19 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212892D31D370A7C00E92D19 /* UIUserInterfaceSizeClass+description.swift in Sources */,
 				212892C31D37076A00E92D19 /* ViewController.swift in Sources */,
 				212892C11D37076A00E92D19 /* AppDelegate.swift in Sources */,
 			);

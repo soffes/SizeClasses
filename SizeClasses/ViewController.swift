@@ -8,18 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+	
+	// MARK: - Properties
+	
+	@IBOutlet var horizontalLabel: UILabel!
+	@IBOutlet var verticalLabel: UILabel!
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+	
+	// MARK: - UIViewController
+	
+	override func traitCollectionDidChange(previousTraitCollection: UITraitCollection?) {
+		super.traitCollectionDidChange(previousTraitCollection)
+		
+		horizontalLabel.text = "Horizontal: \(traitCollection.horizontalSizeClass)"
+		verticalLabel.text = "Vertical: \(traitCollection.verticalSizeClass)"
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
 
